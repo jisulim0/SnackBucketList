@@ -1,0 +1,90 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'kotlin-parcelize'
+}
+
+android {
+    compileSdkVersion rootProject.compileSdkVersion
+    buildToolsVersion rootProject.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.jisulim.snackcart"
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+//    compileOptions {
+//        sourceCompatibility JavaVersion.VERSION_1_8
+//        targetCompatibility JavaVersion.VERSION_1_8
+//    }
+//    kotlinOptions {
+//        jvmTarget = '1.8'
+//    }
+}
+
+dependencies {
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation "androidx.core:core-ktx:$coreKtxVersion"
+    implementation "androidx.appcompat:appcompat:$appcompatVersion"
+    implementation "com.google.android.material:material:$materialVersion"
+    implementation "androidx.constraintlayout:constraintlayout:$constraintlayoutVersion"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
+    testImplementation "junit:junit:4.+"
+    androidTestImplementation "androidx.test.ext:junit:$junitVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"
+
+
+    // DI - hilt
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
+
+    // fragment
+    implementation("androidx.fragment:fragment-ktx:$fragment_version")
+
+    // room
+    implementation "androidx.room:room-runtime:$room_version"
+    implementation("androidx.room:room-ktx:$room_version")
+    annotationProcessor("androidx.room:room-compiler:$room_version")
+    kapt("androidx.room:room-compiler:$room_version")
+
+    // coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutine_version")
+
+    // jsoup
+    implementation "org.jsoup:jsoup:$jsoup_version"
+
+    // gilde
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glide_version"
+
+    // anko
+    implementation "org.jetbrains.anko:anko:$anko_version"
+
+    // material dialog
+    implementation "com.afollestad.material-dialogs:core:$material_version"
+
+    // pull to refresh
+    implementation "com.dinuscxj:recyclerrefreshlayout:$refresh_version"
+
+    // Gson
+    implementation "com.google.code.gson:gson:$gson_version"
+
+    // Loading
+    implementation "com.github.ibrahimsn98:CirclesLoadingView:$loading_version"
+}
