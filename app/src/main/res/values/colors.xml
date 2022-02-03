@@ -7,4 +7,29 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="main_blue">#3F52E3</color>
+    <color name="main_gray">#CCCCCC</color>
+
+    <!--    text-->
+    <color name="text_black">#23120B</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_gray">#C0C0C0</color>
+    <color name="text_deep_gray">#2D2D2C</color>
+    <color name="text_deep_navy">#3F52E3</color>
+
+    <!--    icon-->
+    <color name="ic_delete_red">#FF5656</color>
+
+    <!--    menu select-->
+    <color name="menu_select_true">#3F52E3</color>
+    <color name="menu_select_false">#CCCCCC</color>
+
+<!--    bacground-->
+    <color name="bg_light_gray">#F6F6F6</color>
+
+
+
+    <color name="ic_launcher_background">#FFFFFF</color>
+
 </resources>

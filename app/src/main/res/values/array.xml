@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="user">
+        <!--            default-->
+        <item>선택바람</item>
+
+        <!--        안드로이드-->
+        <item>Andew</item>
+        <item>Bentley</item>
+
+        <!--        하드웨어-->
+        <item>Gabriel</item>
+        <item>Kale</item>
+
+        <!--        펌웨어-->
+        <item>Alex</item>
+        <item>Fabian</item>
+        <item>Matthew</item>
+
+        <!--        UI/UX-->
+        <item>Charles</item>
+        <item>Leonardo</item>
+        <item>박병관</item>
+
+        <!--        사업팀-->
+        <item>Frankie</item>
+        <item>Gregory</item>
+        <item>Nikolai</item>
+        <item>Owen</item>
+        <item>Raymond</item>
+
+        <!--        DS-->
+        <item>Dominick</item>
+
+    </string-array>
+
+    <string-array name="site_list">
+        <item>이마트몰</item>
+        <item>트레이더스</item>
+    </string-array>
+
+
+    <string-array name="category_list_emart">
+        <item>6000095739</item>
+        <item>6000095740</item>
+        <item>6000095498</item>
+        <item>6000095499</item>
+        <item>6000095500</item>
+        <item>6000095501</item>
+        <item>6000095502</item>
+        <item>6000095503</item>
+        <item>6000095504</item>
+        <item>6000095505</item>
+        <item>6000095506</item>
+        <item>6000095507</item>
+        <item>6000095508</item>
+        <item>6000095509</item>
+        <item>6000095510</item>
+        <item>6000095511</item>
+
+
+    </string-array>
+
+    <string-array name="category_list_traders">
+        <item>6000098831</item>
+        <item>6000098832</item>
+        <item>6000098833</item>
+        <item>6000098834</item>
+        <item>6000098835</item>
+        <item>6000098836</item>
+        <item>6000098837</item>
+    </string-array>
+
+    <!--
+    6000095739
+    6000095740
+    6000095498
+    6000095499
+    6000095500
+    6000095501
+    6000095502
+    6000095503
+    6000095504
+    6000095505
+    6000095506
+    6000095507
+    6000095508
+    6000095509
+    6000095510
+    6000095511
+
+    &ctgId=6000095739
+    &ctgId=6000095740
+    &ctgId=6000095498
+    &ctgId=6000095499
+    &ctgId=6000095500
+    &ctgId=6000095501
+    &ctgId=6000095502
+    &ctgId=6000095503
+    &ctgId=6000095504
+    &ctgId=6000095505
+    &ctgId=6000095506
+    &ctgId=6000095507
+    &ctgId=6000095508
+    &ctgId=6000095509
+    &ctgId=6000095510
+    &ctgId=6000095511
+    -->
+
+</resources>
